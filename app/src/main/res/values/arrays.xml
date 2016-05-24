@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="strarr_don_vi_tien_te">
+        <item>VNĐ</item>
+        <item>$</item>
+    </string-array>
+
+    <string-array name="strarr_loai_giao_dich">
+        <item>CHI</item>
+        <item>THU</item>
+    </string-array>
+
+</resources>

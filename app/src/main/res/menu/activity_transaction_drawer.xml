@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:visible="true">
+        <item
+            android:id="@+id/nav_XemViKhac"
+            android:icon="@drawable/ic_xem_vi_khac"
+            android:title="@string/xem_vi_khac" />
+        <item
+            android:id="@+id/nav_SuaThongTinVi"
+            android:icon="@drawable/ic_sua_thong_tin_vi"
+            android:title="@string/sua_thong_tin_vi" />
+        <item
+            android:id="@+id/nav_XoaViNay"
+            android:icon="@drawable/ic_xoa_vi_nay"
+            android:title="@string/xoa_vi_nay" />
+        <item
+            android:id="@+id/nav_DieuChinhSoDu"
+            android:icon="@drawable/ic_chinh_sua_so_du"
+            android:title="@string/dieu_chinh_so_du" />
+    </group>
+</menu>

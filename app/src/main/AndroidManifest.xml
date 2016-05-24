@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="blueeaglestudio.mywallet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".TransactionActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="blueeaglestudio.mywallet.TransactionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WalletActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="blueeaglestudio.mywallet.WalletActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddWalletActivity"
+            android:label="@string/title_activity_add_wallet"
+            android:parentActivityName=".WalletActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="blueeaglestudio.mywallet.WalletActivity" />
+
+            <intent-filter>
+                <action android:name="blueeaglestudio.mywallet.AddWalletActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditWalletActivity"
+            android:label="@string/title_activity_edit_wallet"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="blueeaglestudio.mywallet.EditWalletActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditBalanceActivity"
+            android:label="@string/title_activity_edit_balance"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="blueeaglestudio.mywallet.EditBalanceActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddTransactionActivity"
+            android:label="@string/title_activity_add_transaction"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="blueeaglestudio.mywallet.AddTransactionActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditTransactionActivity"
+            android:label="@string/title_activity_edit_transaction"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="blueeaglestudio.mywallet.EditTransactionActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="blueeaglestudio.mywallet.SplashActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

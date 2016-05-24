@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="ten_vi">Ví Công Tử</string>
+
+    <string name="xem_vi_khac">Xem ví khác</string>
+
+    <string name="sua_thong_tin_vi">Sửa thông tin ví</string>
+
+    <string name="xoa_vi_nay">Xóa ví này</string>
+
+    <string name="dieu_chinh_so_du">Điều chỉnh số dư</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_wallet">Chọn Ví</string>
+
+    <string name="so_du_hien_tai">2000.000 VNĐ</string>
+
+    <string name="so_du_hien_tai2">Số dư hiện tại</string>
+
+    <string name="thang">Tháng 11, 2015</string>
+
+    <string name="title_activity_add_wallet">Thêm ví</string>
+
+    <string name="title_activity_edit_wallet">Sửa ví</string>
+
+    <string name="huy_sua_vi">Đã hủy sửa ví</string>
+
+    <string name="sua_vi_thanh_cong">Sửa ví thành công</string>
+
+    <string name="them_vi_thanh_cong">Thêm ví thành công</string>
+
+    <string name="so_du_hien_tai3">200.000</string>
+
+    <string name="ten_giao_dich">Ăn cơm trưa</string>
+
+    <string name="ghi_chu_giao_dich">Gà chiên ròn</string>
+
+    <string name="ngay_thang_giao_dich">21 Tháng 11, 2015</string>
+
+    <string name="ban_co_muon_xoa_vi_nay">Bạn có muốn xóa ví này không?</string>
+
+    <string name="huy_bo">Hủy Bỏ</string>
+
+    <string name="xoa_vi">Xóa Ví</string>
+
+    <string name="title_activity_edit_balance">Điều chỉnh số dư ví</string>
+
+    <string name="title_activity_add_transaction">Thêm giao dịch</string>
+
+    <string name="title_activity_edit_transaction">Sửa thu chi</string>
+
+    <string name="ngay_giao_dich">20, Tháng 10, 2015</string>
+
+    <string name="xoa_giao_dich">Xóa Giao Dịch</string>
+
+    <string name="xem_chi_tiet">Xem Chi Tiết</string>
+
+    <string name="sua_giao_dich">Sửa Giao Dịch</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="dummy_button">Dummy Button</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="splash_text">Quản Lý Ví Tiền Cá Nhân</string>
+
+    <string name="copyright">Copyright By TT</string>
+
+    <string name="vnd">VNĐ</string>
+
+    <string name="so_tien_giao_dich">Số tiền giao dịch</string>
+
+    <string name="don_vi_tien_te">Đơn vị tiền tệ:</string>
+
+    <string name="tien_da_thu">Tiền đã thu</string>
+
+    <string name="tien_da_thu_1">2.000.000</string>
+
+    <string name="tien_da_chi">Tiền đã chi</string>
+
+    <string name="tien_da_chi_1">-150.000</string>
+
+    <string name="tong_quan_thang_nay">Tổng quan tháng này</string>
+
+    <string name="so_tien_tong_quan">2.000.000 VNĐ</string>
+</resources>

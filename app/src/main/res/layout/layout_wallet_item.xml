@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="75dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_rectangle_corner"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:paddingLeft="2dp"
+            android:src="@mipmap/ic_vi_tien_xanh" />
+
+        <TextView
+            android:id="@+id/tvTenViItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:text="@string/ten_vi"
+            android:textAllCaps="true"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSoDuHienTaiItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="end"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:text="@string/so_du_hien_tai"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mTransXemChiTiet"
+        android:title="@string/xem_chi_tiet" />
+    <item
+        android:id="@+id/mTransSuaGiaoDich"
+        android:title="@string/sua_giao_dich" />
+    <item
+        android:id="@+id/mTransXoaGiaoDich"
+        android:title="@string/xoa_giao_dich" />
+</menu>
